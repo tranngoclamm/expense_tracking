@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Mua sắm",
+    "icon": "assets/img/shopping-cart.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Đồ ăn",
+    "icon": "assets/img/restaurant.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Điện thoại",
+    "icon": "assets/img/smartphone.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Giải trí",
+    "icon": "assets/img/micro.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Giáo dục",
+    "icon": "assets/img/book.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Sắc đẹp",
+    "icon": "assets/img/cosmetics.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Thể thao",
+    "icon": "assets/img/swimming.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Xã hội",
+    "icon": "assets/img/people.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Vận tải",
+    "icon": "assets/img/shopping-cart.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Quần áo",
+    "icon": "assets/img/tshirt.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Xe hơi",
+    "icon": "assets/img/transport.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Rượu",
+    "icon": "assets/img/wine-glasses.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Thuốc lá",
+    "icon": "assets/img/box.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Thiết bị điện",
+    "icon": "assets/img/restaurant.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Du lịch",
+    "icon": "assets/img/airplane.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Sức khỏe",
+    "icon": "assets/img/healthy.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Thú cưng",
+    "icon": "assets/img/pet.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Sửa chữa",
+    "icon": "assets/img/repair.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Nhà ở",
+    "icon": "assets/img/paint-roller.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Nhà",
+    "icon": "assets/img/restaurant.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Quà tặng",
+    "icon": "assets/img/gift-card.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Quyên góp",
+    "icon": "assets/img/restaurant.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Vé số",
+    "icon": "assets/img/fortune-wheel.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Đồ ăn nhẹ",
+    "icon": "assets/img/fast-food.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Trẻ em",
+    "icon": "assets/img/playtime.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Rau quả",
+    "icon": "assets/img/vegetable.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Hoa quả",
+    "icon": "assets/img/restaurant.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Khác",
+    "icon": "assets/img/repair.png",
+    "type": "Expense"
+  },
+  {
+    "name": "Lương",
+    "icon": "assets/img/repair.png",
+    "type": "Income"
+  },
+  {
+    "name": "Đầu tư",
+    "icon": "assets/img/salary.png",
+    "type": "Income"
+  },
+  {
+    "name": "Part-time",
+    "icon": "assets/img/restaurant.png",
+    "type": "Income"
+  },
+  {
+    "name": "Giải thưởng",
+    "icon": "assets/img/gift-card.png",
+    "type": "Income"
+  },
+  {
+    "name": "Khác",
+    "icon": "assets/img/restaurant.png",
+    "type": "Income"
+  }
+]
