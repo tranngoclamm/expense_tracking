@@ -46,6 +46,8 @@ class AuthService {
         UserModel userModel = UserModel(
             uid: user.uid,
             name: "unknown",
+            email: email,
+            role: "User",
             avatar: "assets\\img\\avatar.png",
             gender: "Other");
         await _firestore

@@ -1,28 +1,44 @@
-import 'dart:ffi';
-
-import 'package:trackizer/model/category.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 class Budget {
-  String uid;
-  Category category;
-  Int32 budget;
+  String id;        // ID của ngân sách
+  String userId;    // ID của người dùng
+  double amount;    // Số tiền ngân sách
+  DateTime month;   // Tháng áp dụng ngân sách
 
-  Budget({required this.uid, required this.category, required this.budget});
+  Budget({
+    required this.id,
+    required this.userId,
+    required this.amount,
+    required this.month,
+  });
 
-  Budget.fromJson(Map<String, Object?> json)
+  // Chuyển đổi từ JSON sang Object
+  Budget.fromJson(Map<String, dynamic> json)
       : this(
-            uid: json['uid']! as String,
-            category: json['category']! as Category,
-            budget: json['budget']! as Int32);
+    id: json['id'] as String,
+    userId: json['userId'] as String,
+    amount: (json['amount'] as num).toDouble(),
+    month: (json['month'] as Timestamp).toDate(),
+  );
 
-  Budget copyWith({String? uid, Category? category, Int32? budget}) {
+  // Tạo bản sao (copy) để cập nhật dữ liệu
+  Budget copyWith({String? id, String? userId, double? amount, DateTime? month}) {
     return Budget(
-        uid: uid ?? this.uid,
-        category: category ?? this.category,
-        budget: budget ?? this.budget);
+      id: id ?? this.id,
+      userId: userId ?? this.userId,
+      amount: amount ?? this.amount,
+      month: month ?? this.month,
+    );
   }
 
-  Map<String, Object?> toJson() {
-    return {'uid': uid, 'category': category, 'budget': budget};
+  // Chuyển đổi Object sang JSON để lưu vào Firestore
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'userId': userId,
+      'amount': amount,
+      'month': Timestamp.fromDate(month),
+    };
   }
 }
